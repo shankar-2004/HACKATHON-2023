@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Crop Prediction</h1>
+    </header>
+    <main>
+      <form>
+        <label for="geolocation">Geolocation:</label>
+        <input type="text" id="geolocation" name="geolocation">
+        <label for="season">Season:</label>
+        <select id="season" name="season">
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="fall">Fall</option>
+          <option value="winter">Winter</option>
+        </select>
+        <label for="price">Price:</label>
+        <input type="text" id="price" name="price">
+        <label for="Temperature">Temperature:</label>
+          <input type="text" id="Temperature" name="Temperature">
+          <label for="Humidity">Humidity:</label>
+          <input type="text" id="Humidity" name="Humidity">
+          <label for="Rainfall">Rainfall:</label>
+          <input type="text" id="Rainfall" name="Rainfall">
+          <button type="submit">Predict</button>
+      </form>
+      <section id="results">
+        <h2>Results:</h2>
+        <p id="output"></p>
+        <input  type="text" id="text" name="text">
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
